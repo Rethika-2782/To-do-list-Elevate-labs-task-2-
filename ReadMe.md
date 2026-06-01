@@ -103,6 +103,8 @@ A shorter syntax for functions: `const fn = (x) => x * 2`. They don't have their
 
 ---
 
+Deployed link : https://rethika-2782.github.io/To-do-list-Elevate-labs-task-2-/
+
 ## 👤 Author
 
 Rethika S
