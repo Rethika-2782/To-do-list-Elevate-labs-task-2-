@@ -1,111 +1,215 @@
 # ✅ To-Do List Web App
 
-A clean, dynamic To-Do List built with **HTML**, **CSS**, and **Vanilla JavaScript** — no frameworks, no libraries.
+<div align="center">
+
+### Task 2 — ElevateLabs Web Development Internship
+
+A modern and interactive To-Do List application built using **HTML**, **CSS**, and **Vanilla JavaScript**. The application allows users to efficiently manage daily tasks with real-time updates, task filtering, completion tracking, and a responsive dark-themed interface.
+
+🌐 **Live Demo:**
+https://rethika-2782.github.io/To-do-list-Elevate-labs-task-2-/
+
+</div>
 
 ---
 
-## 📌 Task Info
+## 📌 Project Overview
 
-| Field | Details |
-|-------|---------|
-| Internship | ElevateLabs Web Development Internship |
-| Task | Task 2 — Build a To-Do List Web App |
-| Tools Used | VS Code, Chrome Browser, Live Server |
+This project demonstrates core front-end web development concepts including DOM manipulation, event handling, dynamic rendering, and state management using pure JavaScript without any external libraries or frameworks.
+
+The application provides a simple yet effective way to organize tasks while maintaining a smooth and responsive user experience.
 
 ---
 
 ## 🚀 Features
 
-- ➕ **Add Tasks** — Type a task and press Enter or click "Add"
-- ✅ **Mark Complete** — Click the checkbox to toggle a task as done
-- 🗑️ **Delete Tasks** — Remove individual tasks with the × button
-- 🔍 **Filter Tasks** — View All, Active, or Completed tasks
-- 🧹 **Clear Completed** — Bulk-remove all finished tasks with one click
-- 🔢 **Live Counter** — Shows how many tasks are still pending
-- ⚡ **Instant UI Updates** — No page reload needed
+### ➕ Task Management
+
+* Add new tasks instantly
+* Add tasks using the button or Enter key
+* Delete individual tasks
+
+### ✅ Task Completion
+
+* Mark tasks as completed
+* Toggle completed status anytime
+* Visual distinction for completed items
+
+### 🔍 Task Filtering
+
+* View All Tasks
+* View Active Tasks
+* View Completed Tasks
+
+### 🧹 Productivity Tools
+
+* Clear all completed tasks
+* Live pending task counter
+* Instant UI updates without page refresh
+
+### 🎨 User Experience
+
+* Dark-themed modern interface
+* Smooth animations and transitions
+* Responsive design
+* Clean and intuitive layout
 
 ---
 
-## 📁 File Structure
+## 🛠️ Technologies Used
 
-```
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+
+### Development Tools
+
+* Visual Studio Code
+* Live Server
+* Google Chrome
+
+---
+
+## 📁 Project Structure
+
+```bash
 todo-app/
-├── index.html   → App structure and layout
-├── style.css    → Styling, dark theme, animations
-├── script.js    → All JavaScript logic
-└── README.md    → Project documentation
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
 ---
 
-## 🛠️ How to Run
+## ⚡ How to Run
 
-1. Clone or download this repository
-2. Open the folder in **VS Code**
-3. Right-click `index.html` → **Open with Live Server**
-4. The app opens in your browser at `http://127.0.0.1:5500`
+### Option 1: Open Directly
 
-> **No installation required.** Pure HTML/CSS/JS — works in any modern browser.
+Simply open:
 
----
+```bash
+index.html
+```
 
-## 🧠 Key Concepts Used
+in any modern browser.
 
-| Concept | Where Used |
-|---------|------------|
-| DOM Manipulation | Creating/removing `<li>` elements dynamically |
-| Event Listeners | Add button, Enter key, filter buttons |
-| Event Delegation | Single listener on `<ul>` handles all task clicks |
-| ES6 Features | `const`, `let`, arrow functions, template literals, array methods |
-| Array Methods | `.push()`, `.filter()`, `.find()` for task state management |
-| CSS Transitions | Smooth animations on task add, hover, and complete toggle |
-| Dynamic Classes | `.completed` toggled via `classList` |
+### Option 2: Live Server
+
+1. Open the project folder in VS Code.
+2. Install the Live Server extension.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+
+The application will run locally in your browser.
 
 ---
 
-## 📸 App Preview
+## 📸 Features Showcase
 
-> Dark-themed UI with gold accents, smooth slide-in animations, and a live task counter.
+✔ Add Tasks
 
----
+✔ Mark Tasks as Completed
 
-## 💡 Interview Q&A (Quick Reference)
+✔ Delete Tasks
 
-**1. How do you select elements in the DOM?**
-Using `getElementById`, `querySelector`, or `querySelectorAll`.
+✔ Filter Active Tasks
 
-**2. What are event listeners?**
-Functions attached to elements that run when a specified event (like `click` or `keydown`) occurs.
+✔ Filter Completed Tasks
 
-**3. Explain event delegation.**
-Attaching a single event listener to a parent element to handle events from its children — used here on the `<ul>` to handle check and delete clicks.
+✔ Clear Completed Tasks
 
-**4. How do you prevent default behavior in JS?**
-By calling `event.preventDefault()` inside the event handler.
+✔ Live Task Counter
 
-**5. `var` vs `let` vs `const`?**
-`var` is function-scoped and hoisted. `let` and `const` are block-scoped. `const` cannot be reassigned.
-
-**6. Bubbling vs Capturing?**
-Bubbling: events travel from child → parent. Capturing: parent → child. Default is bubbling.
-
-**7. How do you add/remove classes?**
-`element.classList.add('class')`, `.remove('class')`, `.toggle('class')`.
-
-**8. What is closure?**
-A function that retains access to its outer scope even after the outer function has returned.
-
-**9. Arrow functions?**
-A shorter syntax for functions: `const fn = (x) => x * 2`. They don't have their own `this`.
-
-**10. `==` vs `===`?**
-`==` checks value with type coercion. `===` checks value AND type (strict equality).
+✔ Responsive User Interface
 
 ---
 
-Deployed link : https://rethika-2782.github.io/To-do-list-Elevate-labs-task-2-/
+## 🧠 Concepts Implemented
 
-## 👤 Author
+### DOM Manipulation
 
-Rethika S
-ElevateLabs Web Development Internship — Task 2
+Dynamic creation, updating, and removal of task elements.
+
+### Event Handling
+
+Handling user interactions such as clicks, keyboard input, and filtering.
+
+### Event Delegation
+
+Efficient event management using a single listener on the task list container.
+
+### ES6 Features
+
+* let & const
+* Arrow Functions
+* Template Literals
+* Array Methods
+
+### Dynamic Styling
+
+Using `classList.add()`, `remove()`, and `toggle()` to update task states.
+
+### Responsive Design
+
+Ensuring usability across desktop, tablet, and mobile devices.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped strengthen my understanding of:
+
+* JavaScript Fundamentals
+* DOM Manipulation
+* Event Listeners
+* Event Delegation
+* Dynamic Rendering
+* Responsive Web Design
+* UI/UX Principles
+* State Management with Arrays
+* Modern ES6 Syntax
+
+---
+
+## 🎤 Interview Topics Covered
+
+* DOM Selection Methods
+* Event Listeners
+* Event Delegation
+* Event Bubbling & Capturing
+* JavaScript Closures
+* Arrow Functions
+* Array Methods
+* Dynamic Class Manipulation
+* Strict vs Loose Equality
+* Preventing Default Browser Behavior
+
+---
+
+## 👩‍💻 Author
+
+### Rethika S
+
+Computer Science Engineering Student | Frontend Developer | Web Development Enthusiast
+
+Built as part of the **ElevateLabs Web Development Internship — Task 2**
+
+---
+
+## 🌟 Live Demo
+
+Visit the deployed project:
+
+https://rethika-2782.github.io/To-do-list-Elevate-labs-task-2-/
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Feedback and suggestions are always welcome!
